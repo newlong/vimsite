@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '123123';
+$db['default']['database'] = 'vimbobo';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
@@ -64,6 +64,22 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
+
+$db['website']['hostname'] = 'localhost';
+$db['website']['username'] = 'root';
+$db['website']['password'] = '123123';
+$db['website']['database'] = 'vimbobo';
+$db['website']['dbdriver'] = 'mysql';
+$db['website']['dbprefix'] = '';
+$db['website']['pconnect'] = TRUE;
+$db['website']['db_debug'] = TRUE;
+$db['website']['cache_on'] = FALSE;
+$db['website']['cachedir'] = '';
+$db['website']['char_set'] = 'utf8';
+$db['website']['dbcollat'] = 'utf8_general_ci';
+$db['website']['swap_pre'] = '';
+$db['website']['autoinit'] = TRUE;
+$db['website']['stricton'] = FALSE;
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
